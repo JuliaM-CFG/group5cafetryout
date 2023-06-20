@@ -1,0 +1,147 @@
+/*I ordered the elements from top to bottom in the page (more or less). I'd like to know from you if this is okay, or that you prefer keeping the elements seperate from the classes for example*/
+
+* {
+    background-color: rgb(254, 250, 224);
+    font-family: avenir next;
+    color: rgb(70, 70, 70)
+}
+
+.topbar {
+    padding: 8px 48px;
+    text-align: right;
+}
+
+header {
+    padding: 64px 48px;
+    background-color: rgb(233, 237, 201);
+}
+
+h1 {
+    background-color: rgb(233, 237, 201);
+    font-family: amaranth;
+    text-align: center;
+    color: rgb(212, 163, 115);
+    font-size: 64px;
+}
+
+.navbarr {
+    position: sticky;
+    padding: 0px 48px;
+    background-color: rgb(204, 213, 174); 
+    text-align: center;
+}
+
+button {
+    background-color: rgb(233, 237, 201);
+    width: 144px;
+    border: 2px solid rgb(204, 213, 174);
+    border-radius: 8px;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    margin: 4px 8px;
+    padding: 8px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.homebutton {
+    width: 64px;
+    position: absolute;
+    left: 8px;
+}
+
+button:hover {
+    background-color: rgb(250, 237, 205);
+    border: 2px solid rgb(212, 163, 115);
+    border-radius: 8px;
+    color: rgb(16, 16, 16);
+    transition-duration: 0.4s;
+}
+
+.active {
+    background-color: rgb(250, 237, 205);
+    border: 2px solid rgb(212, 163, 115);
+    border-radius: 8px;
+    color: rgb(16, 16, 16);
+}
+
+main {
+    padding: 48px;
+}
+
+p {
+    word-spacing: 4px;
+    margin: 0px;
+    padding: 4px 0px;
+}
+
+.introtext {
+    margin-bottom: 48px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    right: 15%;
+}
+
+/*everything to do with cards from here*/
+
+img {
+    height: 224px;
+    object-fit: cover;
+}
+
+.card {
+    width: 18rem;
+    border: 2px solid rgb(250, 237, 205);
+    border-radius: 8px;
+}
+
+.card:hover {
+    /*background-color: rgb(233, 237, 201); this doesn't work. I've tried many ways but gave up*/
+    border: 2px solid rgb(212, 163, 115);
+    border-radius: 8px;
+    color: rgb(16, 16, 16);
+    transition-duration: 0.4s;
+}
+
+h4 {
+    font-family: amaranth;
+    text-align: center;
+    color: rgb(212, 163, 115);
+}
+
+/*
+I wished this would solve the big distances between the cards, but it doesn't. 
+I'm going to have to try some other things
+
+.row {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    right: 5%;
+}
+*/
+
+.wideopenspace {
+    padding: 320px;
+}
+
+footer {
+    padding: 48px;
+    background-color: rgb(204, 213, 174);
+}
+
+
+/*
+h2 {
+    font-family: amaranth;
+    text-align: center;
+    color: rgb(212, 163, 115);
+}
+
+h3 {
+    font-family: amaranth;
+    text-align: left;
+    color: rgb(212, 163, 115);
+}
+*/
